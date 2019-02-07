@@ -21,7 +21,8 @@ When visiting "/pound/<amt>", the program will create a Pound object with the <a
 When visiting "/bank/<name>/<currency>/<value>", the program will create a new Currency object, depending on the input value for the parameter <currency>. It will then take the <name>, the new Currency object, and the <value> to create a new Bank object.
 
 
+## lab3_code.py ##
 A little about *lab3_code.py*
 lab3_code.py has 2 parent classes: Currency and Bank. There are then subclasses for Currency: Dollar, Yuan, Pound.
 
-The Currency class has a method that converts an input into a different currency. Each Currency subclass stores the rate and the currency name. The Bank class stores the name of the bank, the currency, and the value. There is also a method to deposit into the bank. 
+The Currency class has a method that converts an input into a different currency. Each Currency subclass stores the rate and the currency name. The Bank class stores the name of the bank, the currency, and the value. There is also a method to deposit into the bank.
